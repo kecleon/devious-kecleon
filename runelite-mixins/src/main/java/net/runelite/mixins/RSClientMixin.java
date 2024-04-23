@@ -3609,7 +3609,7 @@ public abstract class RSClientMixin implements RSClient
 		if (!client.isWorldSelectOpen() && (client.getMouseLastPressedX() > client.getLoginScreenXPadding() + 765 || client.getMouseLastPressedY() > 503))
 		{
 			client.setMouseLastPressedX(0);
-			client.setMouseLastPressedX(0);
+			client.setMouseLastPressedY(0);
 		}
 	}
 
